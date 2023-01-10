@@ -17,6 +17,8 @@ for (int d = 10; d >= -10; d = d-1) {
 for (int e = 1904; e<2096; e = e+4) {
     System.out.println( e + " год является високосным.");
 }
-
+for (int f = 7; f<=98; f = f+7) {
+    System.out.println(f);
+}
     }
 }
