@@ -36,5 +36,10 @@ for (int i = 0; i<12; i++) {
     totalReserve1 = totalReserve1 + reserve1;
     System.out.println("Месяц " + i + " сумма накоплений равна " + totalReserve1 + " рублей.");
 }
+int summa = 1;
+for (int j  = 1; j <= 10; j++) {
+    summa = 2*j;
+    System.out.println("2 * "+ j + " = " + summa);
+}
     }
 }
