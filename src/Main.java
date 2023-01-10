@@ -23,5 +23,11 @@ for (int f = 7; f<=98; f = f+7) {
 for (int g = 1; g<=512; g = g*2)   {
     System.out.println(g);
 }
+int reserve = 29000;
+int totalReserve = 0;
+for (int h = 0; h<12; h++) {
+    totalReserve = totalReserve + reserve;
+    System.out.println( "Месяц " + h + " сумма накоплений равна " + totalReserve + " рублей.");
+}
     }
 }
