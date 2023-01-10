@@ -11,6 +11,8 @@ for (int b = 10; b >=1; b = b - 1) {
 for (int c = 0; c<=17; c = c+2) {
         System.out.println(c);
     }
-
+for (int d = 10; d >= -10; d = d-1) {
+    System.out.println(d);
+}
     }
 }
