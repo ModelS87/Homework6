@@ -29,5 +29,12 @@ for (int h = 0; h<12; h++) {
     totalReserve = totalReserve + reserve;
     System.out.println( "Месяц " + h + " сумма накоплений равна " + totalReserve + " рублей.");
 }
+int reserve1 = 29000;
+int totalReserve1 = 0;
+for (int i = 0; i<12; i++) {
+    totalReserve1 = totalReserve1 + totalReserve1/100;
+    totalReserve1 = totalReserve1 + reserve1;
+    System.out.println("Месяц " + i + " сумма накоплений равна " + totalReserve1 + " рублей.");
+}
     }
 }
